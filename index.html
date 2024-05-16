@@ -6,8 +6,19 @@
     <title>Resort Ranger BD</title>
     <!-- Bootstrap CSS link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+      .card {
+        background-color: rgb(49, 148, 90);
+      }
+      body {
+  background-image:url(pic/pexels-pixabay-36478.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+    </style>
 </head>
-<body background="pic/bg snow.jpg">
+<body  >
 
     <!--------------------------- Nav Bar's Code Starts here ---------------------------->
 
@@ -36,17 +47,17 @@
                   Top 10 Resort List
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: goldenrod;">
-                  <li><a class="dropdown-item" href="#">1. The Palace Luxury Resort</a></li>
-                  <li><a class="dropdown-item" href="#">2. Grand Sultan Tea Resort & Golf</a></li>
-                  <li><a class="dropdown-item" href="#">3. Sairu Hill Resorts Limited</a></li>
-                  <li><a class="dropdown-item" href="#">4. Mamata Palli Hotel & Resort</a></li>
-                  <li><a class="dropdown-item" href="#">5. The Paradise Resort. </a></li>
-                  <li><a class="dropdown-item" href="#">6. Sikder Resort & Villas </a></li>
+                  <li><a class="dropdown-item" href="https://www.thepalacelife.com/" target="_blank">1. The Palace Luxury Resort</a></li>
+                  <li><a class="dropdown-item" href="https://grandsultanresort.com/" target="_blank">2. Grand Sultan Tea Resort & Golf</a></li>
+                  <li><a class="dropdown-item" href="https://sairuresort.com/" target="_blank">3. Sairu Hill Resorts Limited</a></li>
+                  <li><a class="dropdown-item" href="http://103.139.165.110:8080/mp_resort/" target="_blank">4. Mamata Palli Hotel & Resort</a></li>
+                  <li><a class="dropdown-item" href="https://www.paradiseresortmb.com/" target="_blank">5. The Paradise Resort. </a></li>
+                  <li><a class="dropdown-item" href="https://www.sikderresort.com/" target="_blank">6. Sikder Resort & Villas </a></li>
                   <li><a class="dropdown-item" href="#">7. Pebble Stone Sea Resort & Restaurant </a></li>
-                  <li><a class="dropdown-item" href="#">8. Sara Resort</a></li>
-                  <li><a class="dropdown-item" href="#">9. Divine Eco Resort. </a></li>
-                  <li><a class="dropdown-item" href="#">10. Jalalpur Eco Resort. </a></li>
-                  <li><a class="dropdown-item" href="#">11. Himachol Resort. </a></li>
+                  <li><a class="dropdown-item" href="https://sarahresort.com/" target="_blank">8. Sara Resort</a></li>
+                  <li><a class="dropdown-item" href=" https://www.divineecoresort.net/" target="_blank">9. Divine Eco Resort. </a></li>
+                  <li><a class="dropdown-item" href="http://www.jalalpurecoresort.com/" target="_blank">10. Jalalpur Eco Resort. </a></li>
+                  <li><a class="dropdown-item" href="https://www.facebook.com/Himacholresorts/" target="_blank">11. Himachol Resort. </a></li>
                 </ul>
               </li>
               
@@ -117,9 +128,11 @@
 <!------------------------------ carousel code ends here -->
 <hr>
 <!--============= Heading and Paragraph Code starts here ================-->
-<section id="about">
-<h1 style="text-align: center; color: goldenrod;">Resort Ranger BD</h1> 
-<p style="margin: auto; width: 80%; text-align: center; color: white;"><b>Welcome to Resort Ranger BD. Resort Ranger BD is your premier destination for discovering the finest resorts in Bangladesh. Immerse yourself in a world where luxury meets nature, and every stay promises an unforgettable experience. Whether you’re seeking a tranquil retreat or an adventure-filled getaway, our curated selection of resorts offers something special for every traveler. Explore pristine landscapes, indulge in local cuisine, and unwind in the comfort of world-class accommodations. At Resort Ranger BD, we’re not just about places to stay; we’re about crafting memories that last a lifetime. Start your journey with us today!</b></p> <br> 
+<div class="container">
+
+  <section id="about" style="border: darkolivegreen 3px solid ; margin: auto ; backdrop-filter: blur(3px);">
+<h1 style="text-align: center; color: goldenrod;">About Resort Ranger BD</h1> 
+<p style="margin: auto; width: 80%; text-align: center; color: rgb(20, 19, 19);"><b>Welcome to Resort Ranger BD. Resort Ranger BD is your premier destination for discovering the finest resorts in Bangladesh. Immerse yourself in a world where luxury meets nature, and every stay promises an unforgettable experience. Whether you’re seeking a tranquil retreat or an adventure-filled getaway, our curated selection of resorts offers something special for every traveler. Explore pristine landscapes, indulge in local cuisine, and unwind in the comfort of world-class accommodations. At Resort Ranger BD, we’re not just about places to stay; we’re about crafting memories that last a lifetime. Start your journey with us today!</b></p> <br> 
 </section>
 <hr>
  <!--============= Heading and Paragraph Code Ends here ================-->
@@ -130,11 +143,11 @@
  <div class="row" style="margin: auto;">
 
 <div class="col-5">
-<img class="img-fluid" src="pic/bg.png" height="430px" width="700px" class="img-fluid" alt="">
+<img class="img-fluid" src="pic/bg.png" height="500px" width="730px" class="img-fluid" alt="">
 </div>
 
 <div class="col-7">
-    <img class="img-fluid" src="pic/winner.jpg" height="130px" width="670px" class="img-fluid" alt="">
+    <img class="img-fluid" src="pic/winner.jpg" height="80px" width="600px" class="img-fluid" alt="">
 </div>
                  
             
@@ -147,23 +160,25 @@
 <br>
 <br>
 <hr>
+<hr>
 <!--============== Products and rooms are shown here ===========-->
-<section id="offers">
-<div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4" style="text-align: center;">Our Trending Packages</h1>
-      
-    </div>
-  </div> <br>
-  <hr>
+<section id="offers" style="backdrop-filter: blur(5px);">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4" style="text-align: center; color: goldenrod;"> <b>Our Trending Packages</b></h1>
+          <p class="lead" style="text-align: center;"> <b>Check out our trending packages and Offers.
+             Click on the image to see details.</b></p>
+        </div>
+      </div>
+   <br>
 <section>
     <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
           <div class="card">
             <img class="img-fluid" src="pic/t1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h3 class="card-title" style="color: goldenrod;">Eco Cottage</h3>
-              <p class="card-text" style="color: green;">Pricing starts from <b>BDT 3000</b> and luxury rooms are over <b>BDT 15000.</b></p>
+              <h3 class="card-title" style="color: goldenrod;font-family: Didot;">Eco Cottage</h3>
+              <p class="card-text" style="color: rgb(230, 230, 230);">Pricing starts from <b>BDT 3000</b> and luxury rooms are over <b>BDT 15000.</b></p>
             </div>
           </div>
         </div>
@@ -171,8 +186,8 @@
           <div class="card">
             <img class="img-fluid" src="pic/t2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h3 class="card-title" style="color: goldenrod;">Goriber Maldives</h3>
-              <p class="card-text" style="color: green;">Pricing starts from <b>BDT 6000</b> and luxury rooms are over <b>BDT 25000.</b></p>
+              <h3 class="card-title" style="color: goldenrod; font-family: Didot;">ST. Martin Sea View</h3>
+              <p class="card-text" style="color: rgb(230, 230, 230);">Pricing starts from <b>BDT 6000</b> and luxury rooms are over <b>BDT 25000.</b></p>
             </div>
           </div>
         </div>
@@ -180,8 +195,8 @@
           <div class="card">
             <img class="img-fluid" src="pic/t3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h3 class="card-title" style="color:goldenrod;">Wood Cottage</h3>
-              <p class="card-text" style="color: green;">Pricing starts from <b>BDT 4000</b> and luxury rooms are over <b>BDT 35000.</b></p>
+              <h3 class="card-title" style="color:goldenrod;font-family: Didot;">Wood Cottage</h3>
+              <p class="card-text" style="color:  rgb(230, 230, 230);">Pricing starts from <b>BDT 4000</b> and luxury rooms are over <b>BDT 35000.</b></p>
             </div>
           </div>
         </div>
@@ -189,8 +204,8 @@
           <div class="card">
             <img src="pic/t4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h3 class="card-title" style="color: goldenrod;">ST. Martin Resort</h3>
-              <p class="card-text" style="color: green;">Pricing starts from <b>BDT 10000</b> and luxury rooms are over <b>BDT 45000.</b></p>
+              <h3 class="card-title" style="color: goldenrod; font-family: Didot;" >ST. Martin Resort</h3>
+              <p class="card-text" style="color:  rgb(230, 230, 230);">Pricing starts from <b>BDT 10000</b> and luxury rooms are over <b>BDT 45000.</b></p>
             </div>
           </div>
         </div>
@@ -202,41 +217,41 @@
 
 <!--=============== Contact us Form Starts here ===============-->
 
-<section class="container" id="contact">
+<section class="container" id="contact" style="backdrop-filter: blur(2px); border: 2px solid olivedrab;">
     <p class="h1 text-center" style="color: goldenrod;"><u>Contact Us</u></p>
     <br>
     <hr>
     <div class="row">
 
- <div class="col-md-6" style="background-color: seagreen;">
+ <div class="col-md-6"   >
     <form class="row g-3"  class="mt=4">
         <div class="col-md-6">
-          <label for="inputEmail4" class="form-label">Email</label>
+          <label for="inputEmail4" class="form-label text-warning" ><b>Email</b></label>
           <input type="email" class="form-control" id="inputEmail4">
         </div>
         <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">Password</label>
+          <label for="inputPassword4" class="form-label text-warning"> <b>Password</b></label>
           <input type="password" class="form-control" id="inputPassword4">
         </div>
         <div class="col-12">
-          <label for="inputAddress" class="form-label">Address</label>
+          <label for="inputAddress" class="form-label text-warning"><b>Address</b></label>
           <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
         </div>
         
         <div class="col-12">
-            <label for="inputAddress2" class="form-label">Phone Number</label>
+            <label for="inputAddress2" class="form-label text-warning"><b>Phone Number</b></label>
             <input type="number" class="form-control" id="inputAddress2" placeholder="+880">
           </div>
           <div class="col-12">
-            <label for="inputAddress2" class="form-label">Any Complain's or Feedback</label>
+            <label for="inputAddress2" class="form-label text-warning"><b>Any Complain's or Feedback</b></label>
             <input type="text" class="form-control" id="inputAddress2" placeholder="Your specific Complain's or Feedback">
           </div>
         <div class="col-md-6">
-          <label for="inputCity" class="form-label">Area</label>
+          <label for="inputCity" class="form-label text-warning"><b>Area</b></label>
           <input type="text" class="form-control" id="inputCity">
         </div>
         <div class="col-md-4">
-          <label for="inputState" class="form-label">City</label>
+          <label for="inputState" class="form-label text-warning"><b>City</b></label>
           <select id="inputState" class="form-select">
             <option selected>Choose...</option>
             <option>Dhaka</option>
@@ -247,26 +262,28 @@
           
         </div>
         <div class="col-md-2">
-          <label for="inputZip" class="form-label">Zip Code</label>
+          <label for="inputZip" class="form-label text-warning"><b>Zip Code</b></label>
           <input type="text" class="form-control" id="inputZip">
         </div>
         <div class="col-12">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Remember me 
+            <label class="form-check-label text-warning" for="gridCheck">
+              <b>Remember me </b>
             </label>
           </div>
         </div>
         <div class="col-12">
           <button type="submit" class="btn btn-primary">Send</button>
         </div>
+        
       </form>
+      <br>
+      <br>
  </div>
 
- <div class="col-md-6" style="background-color: seagreen;">
-    <img class="img-fluid" src="pic/contact-removebg-preview.png" alt="">
-
+ <div class="col-md-6" >
+  <div style="width: 100%"><iframe style="border: 2px solid black;" width="100%" height="412" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=412&amp;hl=en&amp;q=420/A%20,%20Rakin%20Street,Dhaka%20+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe></div>
  </div>
     
 </div>
@@ -278,29 +295,33 @@
 
 <!--==================== Footer's code starts here =============-->
 
-<footer class="text-center text-white" class="container">
-    <div class="h2" style="color: black;">Resort Ranger BD</div>
+<footer class="text-center text-white" class="container" style="backdrop-filter: blur(2px); border: 2px solid olivedrab;">
+    <div class="h2" style="color: black;"> <b>Resort Ranger BD</b></div>
+    <br>
 <div class="row">
 
     <div class="col-md-5">
-        <h3 style="color: goldenrod;">Our History</h3>
-        <p>Founded with a passion for hospitality and a vision to revolutionize travel in Bangladesh, Resort Ranger BD began as a humble startup. Our journey started with a simple idea: to connect explorers with the hidden gems of our country’s resort destinations. Over the years, we’ve grown from a local service to a trusted marketplace, handpicking the most exquisite resorts that embody the spirit of Bangladeshi warmth and splendor. Our commitment to quality and customer satisfaction has made us the go-to platform for travelers seeking authentic and luxurious experiences. Join us as we continue to create a legacy of extraordinary getaways.</p>
+        <h3 style="color: goldenrod;"><b>Our History </b></h3>
+        <p style="color: rgb(230, 230, 230);"><b> " Founded in 2022 with a passion for hospitality and a vision to revolutionize travel in Bangladesh, Resort Ranger BD began as a humble startup. Our journey started with a simple idea: to connect explorers with the hidden gems of our country’s resort destinations. As our team grew, Our commitment to quality and customer satisfaction has made us the go-to platform for travelers seeking authentic and luxurious experiences. Join us as we continue to create a legacy of extraordinary getaways.  " </b></p>
     </div>
     <div class="col-md-3"></div>
     <div class="col-md-4">
-        <h3 style="color: goldenrod;">Frequently Asked Questions</h3>
-        <p>1. What is the cancellation policy?</p>
-        <p>2. What is the refund policy?</p>
-        <p>3. What is the payment policy?</p>
-        <p>4. What is the booking policy?</p>
-        <p>5.How Resort Ranger BD ensure quality?</p>
+        <h3 style="color: goldenrod;"><b>FAQ's</b></h3>
+        <p style="color:  rgb(230, 230, 230);"><b>1. What is the cancellation policy?<br>
+           2. What is the refund policy?<br>
+           3. What is the payment policy?<br>
+           4. What is the booking policy?<br>
+           5.How Resort Ranger BD ensure quality? <br>
+          6. How Resort Ranger BD ensure safety?<br>
+          7. How Resort Ranger BD ensure security?</b><br> </p>
     </div>
 </div>
 
 
 
-    <p style="background-color: black;">Copyright &copy; 2024-2025. All rights reserved. | Designed by Md. Siyam</p>
+    <p style="background-color: black;">Copyright &copy; 2024-2025. All rights reserved. | Designed by << Md. Siyam - 01886596401>> </p>
 </footer>
+</div>
  <!-- JS Bootstrap link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
